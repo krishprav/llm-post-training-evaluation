@@ -1,0 +1,3 @@
+{"id":"reasoning-0-20","response":"67"}
+{"id":"coding-0-20","response":"x + 23"}
+{"id":"agentic-0-20","response":"{\"tool\":\"weather\",\"argument\":\"City22\",\"extra\":true}"}

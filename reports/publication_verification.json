@@ -1,0 +1,63 @@
+{
+  "passed": true,
+  "scope": "saved_reports_only",
+  "adapter_weights_checked": false,
+  "checks": {
+    "split_hashes_match": true,
+    "sft": {
+      "optimizer_steps": 64,
+      "metrics_finite": true
+    },
+    "sft-low-data": {
+      "optimizer_steps": 64,
+      "metrics_finite": true
+    },
+    "dpo": {
+      "optimizer_steps": 32,
+      "metrics_finite": true
+    },
+    "reward": {
+      "optimizer_steps": 40,
+      "metrics_finite": true
+    },
+    "ppo": {
+      "rollout_batches": 4,
+      "responses_sampled": 16,
+      "metrics_finite": true
+    },
+    "base_eval": {
+      "unique_test_rows": 36,
+      "grades_recomputed": true,
+      "finite": true
+    },
+    "sft_eval": {
+      "unique_test_rows": 36,
+      "grades_recomputed": true,
+      "finite": true
+    },
+    "sft-low-data_eval": {
+      "unique_test_rows": 36,
+      "grades_recomputed": true,
+      "finite": true
+    },
+    "dpo_eval": {
+      "unique_test_rows": 36,
+      "grades_recomputed": true,
+      "finite": true
+    },
+    "ppo_eval": {
+      "unique_test_rows": 36,
+      "grades_recomputed": true,
+      "finite": true
+    },
+    "reward_eval": {
+      "unique_test_pairs": 36,
+      "accuracy": 0.8333333333333334
+    },
+    "saved_objective_parity": true
+  },
+  "limitations": [
+    "Regrades saved outputs rather than rerunning inference or training.",
+    "Use audit_evidence.py after reproducing training to inspect local adapter weights."
+  ]
+}

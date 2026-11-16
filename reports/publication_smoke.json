@@ -1,0 +1,39 @@
+{
+  "timestamp_utc": "2026-11-16T18:11:02.450311+00:00",
+  "purpose": "Publication smoke check after portable cache resolution change",
+  "stage": "sft",
+  "device": "mps",
+  "scope": "First held-out task in each of three domains, not a full experiment rerun",
+  "records": [
+    {
+      "id": "reasoning-0-20",
+      "domain": "reasoning",
+      "response": "67.",
+      "grade": {
+        "valid": false,
+        "correct": false,
+        "failure": "invalid_output"
+      }
+    },
+    {
+      "id": "coding-0-20",
+      "domain": "coding",
+      "response": "x + 22",
+      "grade": {
+        "valid": true,
+        "correct": true,
+        "failure": null
+      }
+    },
+    {
+      "id": "agentic-0-20",
+      "domain": "agentic",
+      "response": "{\"tool\":\"weather\",\"argument\":\"City22\"}",
+      "grade": {
+        "valid": true,
+        "correct": true,
+        "failure": null
+      }
+    }
+  ]
+}

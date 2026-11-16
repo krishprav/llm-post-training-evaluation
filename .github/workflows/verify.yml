@@ -1,0 +1,43 @@
+name: Verify projects
+
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  reports:
+    name: Regrade saved experiment evidence
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: python verify_reports.py
+      - run: python -m eval_harness.cli examples/responses.jsonl --output /tmp/example-grades.json
+
+  tests:
+    name: CPU software and objective checks
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    env:
+      JAX_PLATFORMS: cpu
+      TOKENIZERS_PARALLELISM: 'false'
+      WANDB_DISABLED: 'true'
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          cache: pip
+      - name: Install CPU dependencies
+        run: |
+          python -m pip install torch==2.8.0 --index-url https://download.pytorch.org/whl/cpu
+          python -m pip install -r requirements.txt
+      - name: Run tests without downloading model weights
+        run: python -m pytest -q --junitxml=/tmp/tests.xml
