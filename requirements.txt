@@ -8,3 +8,4 @@ jax==0.6.2
 numpy==2.2.6
 pytest==8.3.5
 rich==13.9.4
+huggingface-hub==0.36.2

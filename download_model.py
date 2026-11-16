@@ -1,15 +1,9 @@
-from pathlib import Path
-import json
-from huggingface_hub import HfApi, snapshot_download
+"""Download the pinned public checkpoint without changing tracked configuration."""
+from post_training_lab.model_source import download_checkpoint, model_spec
 
-ROOT = Path(__file__).resolve().parent
-target = ROOT / "configs/model.json"
-if target.exists():
-    config = json.loads(target.read_text())
-    revision = config["revision"]
-else:
-    revision = HfApi().model_info("HuggingFaceTB/SmolLM2-135M-Instruct").sha
-model_id = "HuggingFaceTB/SmolLM2-135M-Instruct"
-path = snapshot_download(model_id, revision=revision, allow_patterns=["*.json", "*.safetensors", "*.txt", "*.model"])
-target.write_text(json.dumps({"model_id": model_id, "revision": revision, "local_path": path}, indent=2))
-print(f"Pinned {model_id} at {revision}")
+
+if __name__ == "__main__":
+    spec = model_spec()
+    path = download_checkpoint()
+    print(f"Pinned {spec['model_id']} at {spec['revision']}")
+    print(f"Cached locally at {path}")

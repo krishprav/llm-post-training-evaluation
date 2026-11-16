@@ -21,6 +21,7 @@ from transformers import AutoModelForCausalLM, AutoModelForSequenceClassificatio
 from trl import (SFTTrainer, SFTConfig, DPOTrainer, DPOConfig, RewardTrainer, RewardConfig,
                  DataCollatorForCompletionOnlyLM, PPOTrainer, PPOConfig, AutoModelForCausalLMWithValueHead)
 from post_training_lab.data import ROOT, load
+from post_training_lab.model_source import model_spec, resolve_model_path
 
 ART = ROOT / "artifacts"
 REPORTS = ROOT / "reports"
@@ -28,7 +29,7 @@ DEVICE = "mps" if torch.backends.mps.is_available() else "cuda" if torch.cuda.is
 
 
 def info() -> dict:
-    return json.loads((ROOT / "configs/model.json").read_text())
+    return {**model_spec(), "local_path": resolve_model_path()}
 
 
 def tokenizer():
