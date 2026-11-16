@@ -1,6 +1,6 @@
 # Preregistered local portfolio experiment
 
-Recorded before training on 16 November 2026. This is a compact, AI-assisted educational experiment, not prior employment, a production deployment, or evidence of frontier-model improvement.
+Recorded before training on 16 November 2026. This is a compact educational experiment, not prior employment, a production deployment, or evidence of frontier-model improvement.
 
 Project 1 implements an RLHF-style workflow: supervised fine-tuning (SFT), LoRA/PEFT, DPO preference optimization, Bradley-Terry reward modeling, and on-policy PPO updates using the learned reward model. All preference labels are generated from deterministic task specifications. There are no collected human preference labels. A review queue is supplied for subsequent human adjudication.
 
