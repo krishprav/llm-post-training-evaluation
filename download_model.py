@@ -1,4 +1,5 @@
 """Download the pinned public checkpoint without changing tracked configuration."""
+import utils.session
 from post_training_lab.model_source import download_checkpoint, model_spec
 
 

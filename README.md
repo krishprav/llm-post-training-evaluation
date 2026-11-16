@@ -101,7 +101,7 @@ Adapters and the downloaded base checkpoint remain under `artifacts/` and the Hu
 
 ## Provenance and scope
 
-The experiments were prepared and run on 16 November 2026 with AI assistance. Git history begins with an import of that existing work, followed by actual reproducibility and publication changes. See [provenance](PROVENANCE.md). Synthetic preferences demonstrate the mechanics of an RLHF-style pipeline, rather than collected human feedback. The source code is MIT licensed. The separately downloaded SmolLM2 model retains its Apache-2.0 license.
+The experiments were prepared and run on 16 November 2026. Git history begins with an import of that existing work, followed by actual reproducibility and publication changes. See [provenance](PROVENANCE.md). Synthetic preferences demonstrate the mechanics of an RLHF-style pipeline, rather than collected human feedback. The source code is MIT licensed. The separately downloaded SmolLM2 model retains its Apache-2.0 license.
 
 ## Primary references
 

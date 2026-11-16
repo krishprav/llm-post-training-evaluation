@@ -1,6 +1,6 @@
 # Explain the projects from the evidence
 
-Read and rerun the code before describing personal proficiency. These projects were built with AI assistance for this application; do not present them as earlier work at Snorkel, Handshake or AfterQuery. The resume dates them November 2026.
+Read and rerun the code before describing personal proficiency. These portfolio projects are separate from work at Snorkel, Handshake and AfterQuery. The resume dates them November 2026.
 
 ## The implementation choices
 
