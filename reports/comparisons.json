@@ -1,0 +1,30 @@
+{
+  "sft_minus_base": {
+    "accuracy_delta": 0.6111111111111112,
+    "paired_bootstrap_95ci": [
+      0.4722222222222222,
+      0.7777777777777778
+    ]
+  },
+  "sft_minus_sft-low-data": {
+    "accuracy_delta": 0.05555555555555555,
+    "paired_bootstrap_95ci": [
+      0.0,
+      0.1388888888888889
+    ]
+  },
+  "dpo_minus_sft": {
+    "accuracy_delta": -0.05555555555555555,
+    "paired_bootstrap_95ci": [
+      -0.1388888888888889,
+      0.0
+    ]
+  },
+  "ppo_minus_sft": {
+    "accuracy_delta": 0.0,
+    "paired_bootstrap_95ci": [
+      0.0,
+      0.0
+    ]
+  }
+}

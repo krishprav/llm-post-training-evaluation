@@ -1,0 +1,12 @@
+Using the `WANDB_DISABLED` environment variable is deprecated and will be removed in v5. Use the --report_to flag to control the integrations used for logging result (for instance --report_to none).
+Starting from v4.46, the `logits` model output will have the same type as the model (except at train time, where it will always be FP32)
+sft: 4/36
+sft: 8/36
+sft: 12/36
+sft: 16/36
+sft: 20/36
+sft: 24/36
+sft: 28/36
+sft: 32/36
+sft: 36/36
+{"stage": "sft", "statistics": {"all": {"n": 36, "accuracy": 0.6111111111111112, "validity": 0.6111111111111112}, "coding": {"n": 12, "accuracy": 0.8333333333333334, "validity": 0.8333333333333334}, "reasoning": {"n": 12, "accuracy": 0.0, "validity": 0.0}, "agentic": {"n": 12, "accuracy": 1.0, "validity": 1.0}, "preference_accuracy": 0.9166666666666666, "mean_response_tokens": 7.111111111111111, "accuracy_bootstrap_95ci": [0.4444444444444444, 0.7777777777777778]}}

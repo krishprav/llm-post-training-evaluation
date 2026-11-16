@@ -1,0 +1,73 @@
+{
+  "rollout_batches": 4,
+  "responses_sampled": 16,
+  "ppo_epochs": 2,
+  "history": [
+    {
+      "step": 1,
+      "mean_learned_reward": 1.0115989446640015,
+      "kl": 0.0,
+      "policy_loss": -0.3016986548900604,
+      "value_loss": 4.05916690826416,
+      "responses": [
+        "9.",
+        "1250.",
+        " x - 12",
+        "{\"tool\":\"weather\",\"argument\":\"City17\"}\n"
+      ]
+    },
+    {
+      "step": 2,
+      "mean_learned_reward": 2.0733654499053955,
+      "kl": 0.00032599479891359806,
+      "policy_loss": -0.1223321408033371,
+      "value_loss": 4.49785041809082,
+      "responses": [
+        "2.96.",
+        "x + 8",
+        "x * 13",
+        "{\"tool\":\"search\",\"argument\":\"topic2\"}"
+      ]
+    },
+    {
+      "step": 3,
+      "mean_learned_reward": 1.0076003074645996,
+      "kl": 0.009364291094243526,
+      "policy_loss": 0.025374367833137512,
+      "value_loss": 2.793034315109253,
+      "responses": [
+        "64.",
+        "x - 9",
+        "{\"tool\":\"weather\",\"argument\":\"City14\"}",
+        "10"
+      ]
+    },
+    {
+      "step": 4,
+      "mean_learned_reward": 1.3706250190734863,
+      "kl": 0.0025799984578043222,
+      "policy_loss": 0.010830961167812347,
+      "value_loss": 1.881587266921997,
+      "responses": [
+        "x + 5",
+        "x * 10\n\nx * 100",
+        "{\"tool\":\"calculator\",\"argument\":\"15+16\"}",
+        "6."
+      ]
+    }
+  ],
+  "reward_source": "learned synthetic-preference reward model",
+  "elapsed_seconds": 9.233504333000383,
+  "stage": "ppo",
+  "device": "mps",
+  "timestamp_utc": "2026-11-16T11:52:35Z",
+  "model_id": "HuggingFaceTB/SmolLM2-135M-Instruct",
+  "model_revision": "12fd25f77366fa6b3b4b768ec3050bf629380bac",
+  "packages": {
+    "torch": "2.8.0",
+    "transformers": "4.45.2",
+    "trl": "0.11.4",
+    "peft": "0.13.2",
+    "accelerate": "0.34.2"
+  }
+}

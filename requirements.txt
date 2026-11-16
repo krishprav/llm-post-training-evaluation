@@ -1,0 +1,10 @@
+torch==2.8.0
+transformers==4.45.2
+peft==0.13.2
+trl==0.11.4
+accelerate==0.34.2
+datasets==3.1.0
+jax==0.6.2
+numpy==2.2.6
+pytest==8.3.5
+rich==13.9.4

@@ -1,0 +1,23 @@
+{
+  "platform": "macOS-27.2.1-arm64-arm-64bit",
+  "python": "3.11.17",
+  "device": "mps",
+  "seed": 42,
+  "packages": {
+    "torch": "2.8.0",
+    "transformers": "4.45.2",
+    "trl": "0.11.4",
+    "peft": "0.13.2",
+    "datasets": "3.1.0",
+    "accelerate": "0.34.2",
+    "jax": "0.6.2"
+  },
+  "model": {
+    "model_id": "HuggingFaceTB/SmolLM2-135M-Instruct",
+    "revision": "12fd25f77366fa6b3b4b768ec3050bf629380bac",
+    "local_path": "/Users/krishnapraveen/.cache/huggingface/hub/models--HuggingFaceTB--SmolLM2-135M-Instruct/snapshots/12fd25f77366fa6b3b4b768ec3050bf629380bac"
+  },
+  "plan_sha256": "2ccaba0166e5ac0539181552b70877fb37b5a5e68699813947b7f820a232a782",
+  "deepspeed_execution": "not run; CUDA hardware unavailable",
+  "human_preference_collection": "not performed"
+}

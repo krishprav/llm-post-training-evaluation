@@ -1,0 +1,326 @@
+[
+  {
+    "id": "reasoning-0-16",
+    "prompt": "Calculate 37 + 18. Return only the integer answer.",
+    "response_a": "56",
+    "response_b": "55",
+    "human_preference": null,
+    "reviewer": null,
+    "rationale": null
+  },
+  {
+    "id": "reasoning-0-17",
+    "prompt": "Calculate 39 + 19. Return only the integer answer.",
+    "response_a": "59",
+    "response_b": "58",
+    "human_preference": null,
+    "reviewer": null,
+    "rationale": null
+  },
+  {
+    "id": "reasoning-0-18",
+    "prompt": "Calculate 41 + 20. Return only the integer answer.",
+    "response_a": "61",
+    "response_b": "62",
+    "human_preference": null,
+    "reviewer": null,
+    "rationale": null
+  },
+  {
+    "id": "reasoning-0-19",
+    "prompt": "Calculate 43 + 21. Return only the integer answer.",
+    "response_a": "65",
+    "response_b": "64",
+    "human_preference": null,
+    "reviewer": null,
+    "rationale": null
+  },
+  {
+    "id": "reasoning-1-16",
+    "prompt": "Calculate 37 - 18. Return only the integer answer.",
+    "response_a": "20",
+    "response_b": "19",
+    "human_preference": null,
+    "reviewer": null,
+    "rationale": null
+  },
+  {
+    "id": "reasoning-1-17",
+    "prompt": "Calculate 39 - 19. Return only the integer answer.",
+    "response_a": "21",
+    "response_b": "20",
+    "human_preference": null,
+    "reviewer": null,
+    "rationale": null
+  },
+  {
+    "id": "reasoning-1-18",
+    "prompt": "Calculate 41 - 20. Return only the integer answer.",
+    "response_a": "22",
+    "response_b": "21",
+    "human_preference": null,
+    "reviewer": null,
+    "rationale": null
+  },
+  {
+    "id": "reasoning-1-19",
+    "prompt": "Calculate 43 - 21. Return only the integer answer.",
+    "response_a": "23",
+    "response_b": "22",
+    "human_preference": null,
+    "reviewer": null,
+    "rationale": null
+  },
+  {
+    "id": "reasoning-2-16",
+    "prompt": "Calculate 37 * 18. Return only the integer answer.",
+    "response_a": "666",
+    "response_b": "667",
+    "human_preference": null,
+    "reviewer": null,
+    "rationale": null
+  },
+  {
+    "id": "reasoning-2-17",
+    "prompt": "Calculate 39 * 19. Return only the integer answer.",
+    "response_a": "742",
+    "response_b": "741",
+    "human_preference": null,
+    "reviewer": null,
+    "rationale": null
+  },
+  {
+    "id": "reasoning-2-18",
+    "prompt": "Calculate 41 * 20. Return only the integer answer.",
+    "response_a": "821",
+    "response_b": "820",
+    "human_preference": null,
+    "reviewer": null,
+    "rationale": null
+  },
+  {
+    "id": "reasoning-2-19",
+    "prompt": "Calculate 43 * 21. Return only the integer answer.",
+    "response_a": "904",
+    "response_b": "903",
+    "human_preference": null,
+    "reviewer": null,
+    "rationale": null
+  },
+  {
+    "id": "coding-0-16",
+    "prompt": "Return only a Python expression that adds 18 to x. Use x as the variable.",
+    "response_a": "x + 19",
+    "response_b": "x + 18",
+    "human_preference": null,
+    "reviewer": null,
+    "rationale": null
+  },
+  {
+    "id": "coding-0-17",
+    "prompt": "Return only a Python expression that adds 19 to x. Use x as the variable.",
+    "response_a": "x + 20",
+    "response_b": "x + 19",
+    "human_preference": null,
+    "reviewer": null,
+    "rationale": null
+  },
+  {
+    "id": "coding-0-18",
+    "prompt": "Return only a Python expression that adds 20 to x. Use x as the variable.",
+    "response_a": "x + 21",
+    "response_b": "x + 20",
+    "human_preference": null,
+    "reviewer": null,
+    "rationale": null
+  },
+  {
+    "id": "coding-0-19",
+    "prompt": "Return only a Python expression that adds 21 to x. Use x as the variable.",
+    "response_a": "x + 22",
+    "response_b": "x + 21",
+    "human_preference": null,
+    "reviewer": null,
+    "rationale": null
+  },
+  {
+    "id": "coding-1-16",
+    "prompt": "Return only a Python expression that subtracts 18 from x. Use x as the variable.",
+    "response_a": "x - 18",
+    "response_b": "x - 19",
+    "human_preference": null,
+    "reviewer": null,
+    "rationale": null
+  },
+  {
+    "id": "coding-1-17",
+    "prompt": "Return only a Python expression that subtracts 19 from x. Use x as the variable.",
+    "response_a": "x - 20",
+    "response_b": "x - 19",
+    "human_preference": null,
+    "reviewer": null,
+    "rationale": null
+  },
+  {
+    "id": "coding-1-18",
+    "prompt": "Return only a Python expression that subtracts 20 from x. Use x as the variable.",
+    "response_a": "x - 20",
+    "response_b": "x - 21",
+    "human_preference": null,
+    "reviewer": null,
+    "rationale": null
+  },
+  {
+    "id": "coding-1-19",
+    "prompt": "Return only a Python expression that subtracts 21 from x. Use x as the variable.",
+    "response_a": "x - 21",
+    "response_b": "x - 22",
+    "human_preference": null,
+    "reviewer": null,
+    "rationale": null
+  },
+  {
+    "id": "coding-2-16",
+    "prompt": "Return only a Python expression that multiplies x by 18. Use x as the variable.",
+    "response_a": "x * 19",
+    "response_b": "x * 18",
+    "human_preference": null,
+    "reviewer": null,
+    "rationale": null
+  },
+  {
+    "id": "coding-2-17",
+    "prompt": "Return only a Python expression that multiplies x by 19. Use x as the variable.",
+    "response_a": "x * 20",
+    "response_b": "x * 19",
+    "human_preference": null,
+    "reviewer": null,
+    "rationale": null
+  },
+  {
+    "id": "coding-2-18",
+    "prompt": "Return only a Python expression that multiplies x by 20. Use x as the variable.",
+    "response_a": "x * 20",
+    "response_b": "x * 21",
+    "human_preference": null,
+    "reviewer": null,
+    "rationale": null
+  },
+  {
+    "id": "coding-2-19",
+    "prompt": "Return only a Python expression that multiplies x by 21. Use x as the variable.",
+    "response_a": "x * 21",
+    "response_b": "x * 22",
+    "human_preference": null,
+    "reviewer": null,
+    "rationale": null
+  },
+  {
+    "id": "agentic-0-16",
+    "prompt": "Tools: weather(city), calculator(expression), search(query). User: weather in City18. Return JSON only with exactly two string keys: \"tool\" and \"argument\".",
+    "response_a": "{\"tool\":\"weather\",\"argument\":\"City18\"}",
+    "response_b": "{\"tool\":\"calculator\",\"argument\":\"City18\"}",
+    "human_preference": null,
+    "reviewer": null,
+    "rationale": null
+  },
+  {
+    "id": "agentic-0-17",
+    "prompt": "Tools: weather(city), calculator(expression), search(query). User: weather in City19. Return JSON only with exactly two string keys: \"tool\" and \"argument\".",
+    "response_a": "{\"tool\":\"calculator\",\"argument\":\"City19\"}",
+    "response_b": "{\"tool\":\"weather\",\"argument\":\"City19\"}",
+    "human_preference": null,
+    "reviewer": null,
+    "rationale": null
+  },
+  {
+    "id": "agentic-0-18",
+    "prompt": "Tools: weather(city), calculator(expression), search(query). User: weather in City20. Return JSON only with exactly two string keys: \"tool\" and \"argument\".",
+    "response_a": "{\"tool\":\"calculator\",\"argument\":\"City20\"}",
+    "response_b": "{\"tool\":\"weather\",\"argument\":\"City20\"}",
+    "human_preference": null,
+    "reviewer": null,
+    "rationale": null
+  },
+  {
+    "id": "agentic-0-19",
+    "prompt": "Tools: weather(city), calculator(expression), search(query). User: weather in City21. Return JSON only with exactly two string keys: \"tool\" and \"argument\".",
+    "response_a": "{\"tool\":\"weather\",\"argument\":\"City21\"}",
+    "response_b": "{\"tool\":\"calculator\",\"argument\":\"City21\"}",
+    "human_preference": null,
+    "reviewer": null,
+    "rationale": null
+  },
+  {
+    "id": "agentic-1-16",
+    "prompt": "Tools: weather(city), calculator(expression), search(query). User: calculate 18+19. Return JSON only with exactly two string keys: \"tool\" and \"argument\".",
+    "response_a": "{\"tool\":\"search\",\"argument\":\"18+19\"}",
+    "response_b": "{\"tool\":\"calculator\",\"argument\":\"18+19\"}",
+    "human_preference": null,
+    "reviewer": null,
+    "rationale": null
+  },
+  {
+    "id": "agentic-1-17",
+    "prompt": "Tools: weather(city), calculator(expression), search(query). User: calculate 19+20. Return JSON only with exactly two string keys: \"tool\" and \"argument\".",
+    "response_a": "{\"tool\":\"search\",\"argument\":\"19+20\"}",
+    "response_b": "{\"tool\":\"calculator\",\"argument\":\"19+20\"}",
+    "human_preference": null,
+    "reviewer": null,
+    "rationale": null
+  },
+  {
+    "id": "agentic-1-18",
+    "prompt": "Tools: weather(city), calculator(expression), search(query). User: calculate 20+21. Return JSON only with exactly two string keys: \"tool\" and \"argument\".",
+    "response_a": "{\"tool\":\"calculator\",\"argument\":\"20+21\"}",
+    "response_b": "{\"tool\":\"search\",\"argument\":\"20+21\"}",
+    "human_preference": null,
+    "reviewer": null,
+    "rationale": null
+  },
+  {
+    "id": "agentic-1-19",
+    "prompt": "Tools: weather(city), calculator(expression), search(query). User: calculate 21+22. Return JSON only with exactly two string keys: \"tool\" and \"argument\".",
+    "response_a": "{\"tool\":\"search\",\"argument\":\"21+22\"}",
+    "response_b": "{\"tool\":\"calculator\",\"argument\":\"21+22\"}",
+    "human_preference": null,
+    "reviewer": null,
+    "rationale": null
+  },
+  {
+    "id": "agentic-2-16",
+    "prompt": "Tools: weather(city), calculator(expression), search(query). User: search for topic18. Return JSON only with exactly two string keys: \"tool\" and \"argument\".",
+    "response_a": "{\"tool\":\"search\",\"argument\":\"topic18\"}",
+    "response_b": "{\"tool\":\"weather\",\"argument\":\"topic18\"}",
+    "human_preference": null,
+    "reviewer": null,
+    "rationale": null
+  },
+  {
+    "id": "agentic-2-17",
+    "prompt": "Tools: weather(city), calculator(expression), search(query). User: search for topic19. Return JSON only with exactly two string keys: \"tool\" and \"argument\".",
+    "response_a": "{\"tool\":\"search\",\"argument\":\"topic19\"}",
+    "response_b": "{\"tool\":\"weather\",\"argument\":\"topic19\"}",
+    "human_preference": null,
+    "reviewer": null,
+    "rationale": null
+  },
+  {
+    "id": "agentic-2-18",
+    "prompt": "Tools: weather(city), calculator(expression), search(query). User: search for topic20. Return JSON only with exactly two string keys: \"tool\" and \"argument\".",
+    "response_a": "{\"tool\":\"search\",\"argument\":\"topic20\"}",
+    "response_b": "{\"tool\":\"weather\",\"argument\":\"topic20\"}",
+    "human_preference": null,
+    "reviewer": null,
+    "rationale": null
+  },
+  {
+    "id": "agentic-2-19",
+    "prompt": "Tools: weather(city), calculator(expression), search(query). User: search for topic21. Return JSON only with exactly two string keys: \"tool\" and \"argument\".",
+    "response_a": "{\"tool\":\"weather\",\"argument\":\"topic21\"}",
+    "response_b": "{\"tool\":\"search\",\"argument\":\"topic21\"}",
+    "human_preference": null,
+    "reviewer": null,
+    "rationale": null
+  }
+]

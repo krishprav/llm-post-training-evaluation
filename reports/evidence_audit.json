@@ -1,0 +1,60 @@
+{
+  "passed": true,
+  "checks": {
+    "sft": {
+      "optimizer_steps": 64,
+      "adapter_lora_B_absolute_sum": 1394.0503072738647,
+      "metrics_finite": true
+    },
+    "sft-low-data": {
+      "optimizer_steps": 64,
+      "adapter_lora_B_absolute_sum": 1422.7457094192505,
+      "metrics_finite": true
+    },
+    "dpo": {
+      "optimizer_steps": 32,
+      "adapter_lora_B_absolute_sum": 243.92498123645782,
+      "metrics_finite": true
+    },
+    "reward": {
+      "optimizer_steps": 40,
+      "adapter_lora_B_absolute_sum": 682.0235710144043,
+      "metrics_finite": true
+    },
+    "ppo": {
+      "rollout_batches": 4,
+      "responses_sampled": 16,
+      "adapter_lora_B_absolute_sum": 10.884548589587212,
+      "metrics_finite": true
+    },
+    "base_eval": {
+      "unique_test_rows": 36,
+      "finite": true
+    },
+    "sft_eval": {
+      "unique_test_rows": 36,
+      "finite": true
+    },
+    "sft-low-data_eval": {
+      "unique_test_rows": 36,
+      "finite": true
+    },
+    "dpo_eval": {
+      "unique_test_rows": 36,
+      "finite": true
+    },
+    "ppo_eval": {
+      "unique_test_rows": 36,
+      "finite": true
+    },
+    "split_hashes_match": true,
+    "jax_objective_parity": true
+  },
+  "not_claimed": [
+    "human preference collection",
+    "DeepSpeed CUDA execution",
+    "multi-GPU training",
+    "Docker image execution",
+    "public benchmark or frontier capability gains"
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "seed": 42,
+  "label_source": "synthetic_specification_not_human_feedback",
+  "splits": {
+    "train": {
+      "rows": 144,
+      "sha256": "d59b0e08d5c29c098a8162ec8905ff9aa1bf35a908c5f2e25f9650b0576c4c08"
+    },
+    "validation": {
+      "rows": 36,
+      "sha256": "70abbf4448e41c6d3cae05f79b2fa317d63cdbfc831005476477b4f4ce39bba9"
+    },
+    "test": {
+      "rows": 36,
+      "sha256": "3ed2180e547feef9206514c85b3a5bfd1288f28b74f9e2c8ed74e2260cad4107"
+    }
+  }
+}

@@ -1,0 +1,479 @@
+{
+  "stage": "sft",
+  "split": "test",
+  "decoding": {
+    "do_sample": false,
+    "max_new_tokens": 48
+  },
+  "statistics": {
+    "all": {
+      "n": 36,
+      "accuracy": 0.6111111111111112,
+      "validity": 0.6111111111111112
+    },
+    "coding": {
+      "n": 12,
+      "accuracy": 0.8333333333333334,
+      "validity": 0.8333333333333334
+    },
+    "reasoning": {
+      "n": 12,
+      "accuracy": 0.0,
+      "validity": 0.0
+    },
+    "agentic": {
+      "n": 12,
+      "accuracy": 1.0,
+      "validity": 1.0
+    },
+    "preference_accuracy": 0.9166666666666666,
+    "mean_response_tokens": 7.111111111111111,
+    "accuracy_bootstrap_95ci": [
+      0.4444444444444444,
+      0.7777777777777778
+    ]
+  },
+  "records": [
+    {
+      "id": "reasoning-0-20",
+      "domain": "reasoning",
+      "response": "67.",
+      "grade": {
+        "valid": false,
+        "correct": false,
+        "failure": "invalid_output"
+      },
+      "preference_logp_margin": 5.705256462097168,
+      "response_tokens": 3
+    },
+    {
+      "id": "reasoning-0-21",
+      "domain": "reasoning",
+      "response": "59.",
+      "grade": {
+        "valid": false,
+        "correct": false,
+        "failure": "invalid_output"
+      },
+      "preference_logp_margin": 1.4601707458496094,
+      "response_tokens": 3
+    },
+    {
+      "id": "reasoning-0-22",
+      "domain": "reasoning",
+      "response": "66.5.",
+      "grade": {
+        "valid": false,
+        "correct": false,
+        "failure": "invalid_output"
+      },
+      "preference_logp_margin": -0.7844123840332031,
+      "response_tokens": 5
+    },
+    {
+      "id": "reasoning-0-23",
+      "domain": "reasoning",
+      "response": "66.5.",
+      "grade": {
+        "valid": false,
+        "correct": false,
+        "failure": "invalid_output"
+      },
+      "preference_logp_margin": -0.5853705406188965,
+      "response_tokens": 5
+    },
+    {
+      "id": "reasoning-1-20",
+      "domain": "reasoning",
+      "response": "17.",
+      "grade": {
+        "valid": false,
+        "correct": false,
+        "failure": "invalid_output"
+      },
+      "preference_logp_margin": 1.7976160049438477,
+      "response_tokens": 3
+    },
+    {
+      "id": "reasoning-1-21",
+      "domain": "reasoning",
+      "response": "15.",
+      "grade": {
+        "valid": false,
+        "correct": false,
+        "failure": "invalid_output"
+      },
+      "preference_logp_margin": -1.295877456665039,
+      "response_tokens": 3
+    },
+    {
+      "id": "reasoning-1-22",
+      "domain": "reasoning",
+      "response": "17.",
+      "grade": {
+        "valid": false,
+        "correct": false,
+        "failure": "invalid_output"
+      },
+      "preference_logp_margin": 0.6414432525634766,
+      "response_tokens": 3
+    },
+    {
+      "id": "reasoning-1-23",
+      "domain": "reasoning",
+      "response": "17.",
+      "grade": {
+        "valid": false,
+        "correct": false,
+        "failure": "invalid_output"
+      },
+      "preference_logp_margin": 0.2987222671508789,
+      "response_tokens": 3
+    },
+    {
+      "id": "reasoning-2-20",
+      "domain": "reasoning",
+      "response": "670.",
+      "grade": {
+        "valid": false,
+        "correct": false,
+        "failure": "invalid_output"
+      },
+      "preference_logp_margin": 4.643197059631348,
+      "response_tokens": 4
+    },
+    {
+      "id": "reasoning-2-21",
+      "domain": "reasoning",
+      "response": "6703.",
+      "grade": {
+        "valid": false,
+        "correct": false,
+        "failure": "invalid_output"
+      },
+      "preference_logp_margin": 5.109859466552734,
+      "response_tokens": 5
+    },
+    {
+      "id": "reasoning-2-22",
+      "domain": "reasoning",
+      "response": "6724.",
+      "grade": {
+        "valid": false,
+        "correct": false,
+        "failure": "invalid_output"
+      },
+      "preference_logp_margin": 5.804177284240723,
+      "response_tokens": 5
+    },
+    {
+      "id": "reasoning-2-23",
+      "domain": "reasoning",
+      "response": "1055.55.",
+      "grade": {
+        "valid": false,
+        "correct": false,
+        "failure": "invalid_output"
+      },
+      "preference_logp_margin": 14.449506759643555,
+      "response_tokens": 8
+    },
+    {
+      "id": "coding-0-20",
+      "domain": "coding",
+      "response": "x + 22",
+      "grade": {
+        "valid": true,
+        "correct": true,
+        "failure": null
+      },
+      "preference_logp_margin": 8.69996976852417,
+      "response_tokens": 5
+    },
+    {
+      "id": "coding-0-21",
+      "domain": "coding",
+      "response": "x + 23",
+      "grade": {
+        "valid": true,
+        "correct": true,
+        "failure": null
+      },
+      "preference_logp_margin": 9.629117362201214,
+      "response_tokens": 5
+    },
+    {
+      "id": "coding-0-22",
+      "domain": "coding",
+      "response": "x + 24",
+      "grade": {
+        "valid": true,
+        "correct": true,
+        "failure": null
+      },
+      "preference_logp_margin": 9.428910464048386,
+      "response_tokens": 5
+    },
+    {
+      "id": "coding-0-23",
+      "domain": "coding",
+      "response": "x + 25",
+      "grade": {
+        "valid": true,
+        "correct": true,
+        "failure": null
+      },
+      "preference_logp_margin": 12.071167819201946,
+      "response_tokens": 5
+    },
+    {
+      "id": "coding-1-20",
+      "domain": "coding",
+      "response": "x - 22",
+      "grade": {
+        "valid": true,
+        "correct": true,
+        "failure": null
+      },
+      "preference_logp_margin": 10.347981408238411,
+      "response_tokens": 5
+    },
+    {
+      "id": "coding-1-21",
+      "domain": "coding",
+      "response": "x - 23",
+      "grade": {
+        "valid": true,
+        "correct": true,
+        "failure": null
+      },
+      "preference_logp_margin": 10.483846839517355,
+      "response_tokens": 5
+    },
+    {
+      "id": "coding-1-22",
+      "domain": "coding",
+      "response": "x - 24",
+      "grade": {
+        "valid": true,
+        "correct": true,
+        "failure": null
+      },
+      "preference_logp_margin": 11.192138142883778,
+      "response_tokens": 5
+    },
+    {
+      "id": "coding-1-23",
+      "domain": "coding",
+      "response": "x - 25",
+      "grade": {
+        "valid": true,
+        "correct": true,
+        "failure": null
+      },
+      "preference_logp_margin": 14.388129219412804,
+      "response_tokens": 5
+    },
+    {
+      "id": "coding-2-20",
+      "domain": "coding",
+      "response": "x * 22.",
+      "grade": {
+        "valid": false,
+        "correct": false,
+        "failure": "invalid_output"
+      },
+      "preference_logp_margin": 8.729252576828003,
+      "response_tokens": 6
+    },
+    {
+      "id": "coding-2-21",
+      "domain": "coding",
+      "response": "x * 23",
+      "grade": {
+        "valid": true,
+        "correct": true,
+        "failure": null
+      },
+      "preference_logp_margin": 9.691865861415863,
+      "response_tokens": 5
+    },
+    {
+      "id": "coding-2-22",
+      "domain": "coding",
+      "response": "x * 24.",
+      "grade": {
+        "valid": false,
+        "correct": false,
+        "failure": "invalid_output"
+      },
+      "preference_logp_margin": 12.221171259880066,
+      "response_tokens": 6
+    },
+    {
+      "id": "coding-2-23",
+      "domain": "coding",
+      "response": "x * 25",
+      "grade": {
+        "valid": true,
+        "correct": true,
+        "failure": null
+      },
+      "preference_logp_margin": 15.43045061826706,
+      "response_tokens": 5
+    },
+    {
+      "id": "agentic-0-20",
+      "domain": "agentic",
+      "response": "{\"tool\":\"weather\",\"argument\":\"City22\"}",
+      "grade": {
+        "valid": true,
+        "correct": true,
+        "failure": null
+      },
+      "preference_logp_margin": 9.746953278779984,
+      "response_tokens": 11
+    },
+    {
+      "id": "agentic-0-21",
+      "domain": "agentic",
+      "response": "{\"tool\":\"weather\",\"argument\":\"City23\"}",
+      "grade": {
+        "valid": true,
+        "correct": true,
+        "failure": null
+      },
+      "preference_logp_margin": 9.802038222551346,
+      "response_tokens": 11
+    },
+    {
+      "id": "agentic-0-22",
+      "domain": "agentic",
+      "response": "{\"tool\":\"weather\",\"argument\":\"City24\"}",
+      "grade": {
+        "valid": true,
+        "correct": true,
+        "failure": null
+      },
+      "preference_logp_margin": 9.876752719283104,
+      "response_tokens": 11
+    },
+    {
+      "id": "agentic-0-23",
+      "domain": "agentic",
+      "response": "{\"tool\":\"weather\",\"argument\":\"City25\"}",
+      "grade": {
+        "valid": true,
+        "correct": true,
+        "failure": null
+      },
+      "preference_logp_margin": 9.718444555997849,
+      "response_tokens": 11
+    },
+    {
+      "id": "agentic-1-20",
+      "domain": "agentic",
+      "response": "{\"tool\":\"calculator\",\"argument\":\"22+23\"}",
+      "grade": {
+        "valid": true,
+        "correct": true,
+        "failure": null
+      },
+      "preference_logp_margin": 11.458770900964737,
+      "response_tokens": 14
+    },
+    {
+      "id": "agentic-1-21",
+      "domain": "agentic",
+      "response": "{\"tool\":\"calculator\",\"argument\":\"23+24\"}",
+      "grade": {
+        "valid": true,
+        "correct": true,
+        "failure": null
+      },
+      "preference_logp_margin": 11.178082317113876,
+      "response_tokens": 14
+    },
+    {
+      "id": "agentic-1-22",
+      "domain": "agentic",
+      "response": "{\"tool\":\"calculator\",\"argument\":\"24+25\"}",
+      "grade": {
+        "valid": true,
+        "correct": true,
+        "failure": null
+      },
+      "preference_logp_margin": 11.399447277188301,
+      "response_tokens": 14
+    },
+    {
+      "id": "agentic-1-23",
+      "domain": "agentic",
+      "response": "{\"tool\":\"calculator\",\"argument\":\"25+26\"}",
+      "grade": {
+        "valid": true,
+        "correct": true,
+        "failure": null
+      },
+      "preference_logp_margin": 11.335472017526627,
+      "response_tokens": 14
+    },
+    {
+      "id": "agentic-2-20",
+      "domain": "agentic",
+      "response": "{\"tool\":\"search\",\"argument\":\"topic22\"}",
+      "grade": {
+        "valid": true,
+        "correct": true,
+        "failure": null
+      },
+      "preference_logp_margin": 15.605745732784271,
+      "response_tokens": 11
+    },
+    {
+      "id": "agentic-2-21",
+      "domain": "agentic",
+      "response": "{\"tool\":\"search\",\"argument\":\"topic23\"}",
+      "grade": {
+        "valid": true,
+        "correct": true,
+        "failure": null
+      },
+      "preference_logp_margin": 15.741860315203667,
+      "response_tokens": 11
+    },
+    {
+      "id": "agentic-2-22",
+      "domain": "agentic",
+      "response": "{\"tool\":\"search\",\"argument\":\"topic24\"}",
+      "grade": {
+        "valid": true,
+        "correct": true,
+        "failure": null
+      },
+      "preference_logp_margin": 15.786930859088898,
+      "response_tokens": 11
+    },
+    {
+      "id": "agentic-2-23",
+      "domain": "agentic",
+      "response": "{\"tool\":\"search\",\"argument\":\"topic25\"}",
+      "grade": {
+        "valid": true,
+        "correct": true,
+        "failure": null
+      },
+      "preference_logp_margin": 15.82359579205513,
+      "response_tokens": 11
+    }
+  ],
+  "elapsed_seconds": 7.717887417000384,
+  "limitations": [
+    "one training seed",
+    "36 synthetic test tasks",
+    "no public leaderboard comparison",
+    "single tool-call simulation"
+  ],
+  "verifier_sha256": "b4ec44a42a5f383ecef45b74294781aae1efa63d0076afbf0bf8c3050b2cc8d4",
+  "final_regrade_changes": 0
+}

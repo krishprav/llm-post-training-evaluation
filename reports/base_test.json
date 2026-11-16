@@ -1,0 +1,479 @@
+{
+  "stage": "base",
+  "split": "test",
+  "decoding": {
+    "do_sample": false,
+    "max_new_tokens": 48
+  },
+  "statistics": {
+    "all": {
+      "n": 36,
+      "accuracy": 0.0,
+      "validity": 0.0
+    },
+    "coding": {
+      "n": 12,
+      "accuracy": 0.0,
+      "validity": 0.0
+    },
+    "reasoning": {
+      "n": 12,
+      "accuracy": 0.0,
+      "validity": 0.0
+    },
+    "agentic": {
+      "n": 12,
+      "accuracy": 0.0,
+      "validity": 0.0
+    },
+    "preference_accuracy": 0.9444444444444444,
+    "mean_response_tokens": 38.416666666666664,
+    "accuracy_bootstrap_95ci": [
+      0.0,
+      0.0
+    ]
+  },
+  "records": [
+    {
+      "id": "reasoning-0-20",
+      "domain": "reasoning",
+      "response": "45 + 22 = 77",
+      "grade": {
+        "valid": false,
+        "correct": false,
+        "failure": "invalid_output"
+      },
+      "preference_logp_margin": 1.5269861221313477,
+      "response_tokens": 10
+    },
+    {
+      "id": "reasoning-0-21",
+      "domain": "reasoning",
+      "response": "47 + 23 = 70",
+      "grade": {
+        "valid": false,
+        "correct": false,
+        "failure": "invalid_output"
+      },
+      "preference_logp_margin": 0.5460653305053711,
+      "response_tokens": 10
+    },
+    {
+      "id": "reasoning-0-22",
+      "domain": "reasoning",
+      "response": "49 + 24 = 73",
+      "grade": {
+        "valid": false,
+        "correct": false,
+        "failure": "invalid_output"
+      },
+      "preference_logp_margin": 0.3002300262451172,
+      "response_tokens": 10
+    },
+    {
+      "id": "reasoning-0-23",
+      "domain": "reasoning",
+      "response": "To calculate 51 + 25, we need to add the two numbers together and then subtract the result from 51.\n\n51 + 25 = 76\n76 - 51 = ",
+      "grade": {
+        "valid": false,
+        "correct": false,
+        "failure": "invalid_output"
+      },
+      "preference_logp_margin": -0.08513641357421875,
+      "response_tokens": 48
+    },
+    {
+      "id": "reasoning-1-20",
+      "domain": "reasoning",
+      "response": "45 - 22 = 23",
+      "grade": {
+        "valid": false,
+        "correct": false,
+        "failure": "invalid_output"
+      },
+      "preference_logp_margin": 0.5702028274536133,
+      "response_tokens": 10
+    },
+    {
+      "id": "reasoning-1-21",
+      "domain": "reasoning",
+      "response": "47 - 23 = 22",
+      "grade": {
+        "valid": false,
+        "correct": false,
+        "failure": "invalid_output"
+      },
+      "preference_logp_margin": 1.3912858963012695,
+      "response_tokens": 10
+    },
+    {
+      "id": "reasoning-1-22",
+      "domain": "reasoning",
+      "response": "49 - 24 = 23",
+      "grade": {
+        "valid": false,
+        "correct": false,
+        "failure": "invalid_output"
+      },
+      "preference_logp_margin": 0.4841327667236328,
+      "response_tokens": 10
+    },
+    {
+      "id": "reasoning-1-23",
+      "domain": "reasoning",
+      "response": "To calculate 51 - 25, we need to subtract 25 from 51, which gives us 16. Therefore, the integer answer is 16.",
+      "grade": {
+        "valid": false,
+        "correct": false,
+        "failure": "invalid_output"
+      },
+      "preference_logp_margin": 0.3575916290283203,
+      "response_tokens": 39
+    },
+    {
+      "id": "reasoning-2-20",
+      "domain": "reasoning",
+      "response": "45 * 22 = 1000",
+      "grade": {
+        "valid": false,
+        "correct": false,
+        "failure": "invalid_output"
+      },
+      "preference_logp_margin": 1.5072994232177734,
+      "response_tokens": 12
+    },
+    {
+      "id": "reasoning-2-21",
+      "domain": "reasoning",
+      "response": "47 * 23 = 1001",
+      "grade": {
+        "valid": false,
+        "correct": false,
+        "failure": "invalid_output"
+      },
+      "preference_logp_margin": -0.2691822052001953,
+      "response_tokens": 12
+    },
+    {
+      "id": "reasoning-2-22",
+      "domain": "reasoning",
+      "response": "49 * 24 = 1080",
+      "grade": {
+        "valid": false,
+        "correct": false,
+        "failure": "invalid_output"
+      },
+      "preference_logp_margin": 1.318166732788086,
+      "response_tokens": 12
+    },
+    {
+      "id": "reasoning-2-23",
+      "domain": "reasoning",
+      "response": "To calculate 51 * 25, we need to follow these steps:\n\n1. Multiply 51 by 25: 51 * 25 = 1355\n2. Add ",
+      "grade": {
+        "valid": false,
+        "correct": false,
+        "failure": "invalid_output"
+      },
+      "preference_logp_margin": 2.96929931640625,
+      "response_tokens": 48
+    },
+    {
+      "id": "coding-0-20",
+      "domain": "coding",
+      "response": "```python\ndef add_22(x):\n    return x + 22\n```\n\nThis function uses the built-in `+` operator to add 22 to the input `x`. The result is then",
+      "grade": {
+        "valid": false,
+        "correct": false,
+        "failure": "invalid_output"
+      },
+      "preference_logp_margin": 4.731440544128418,
+      "response_tokens": 48
+    },
+    {
+      "id": "coding-0-21",
+      "domain": "coding",
+      "response": "```python\ndef add_23(x):\n    return x + 23\n```\n\nThis function uses the built-in `+` operator to add 23 to the input `x`. The result is then",
+      "grade": {
+        "valid": false,
+        "correct": false,
+        "failure": "invalid_output"
+      },
+      "preference_logp_margin": 7.612410545349121,
+      "response_tokens": 48
+    },
+    {
+      "id": "coding-0-22",
+      "domain": "coding",
+      "response": "```python\ndef add_24(x):\n    return x + 24\n```\n\nThis function uses the built-in `+` operator to add 24 to the input `x`. The result is then",
+      "grade": {
+        "valid": false,
+        "correct": false,
+        "failure": "invalid_output"
+      },
+      "preference_logp_margin": 6.130227088928223,
+      "response_tokens": 48
+    },
+    {
+      "id": "coding-0-23",
+      "domain": "coding",
+      "response": "```python\ndef add_25(x):\n    return x + 25\n```\n\nThis function uses the built-in `+` operator to add 25 to the input `x`. The result is then",
+      "grade": {
+        "valid": false,
+        "correct": false,
+        "failure": "invalid_output"
+      },
+      "preference_logp_margin": 7.193482398986816,
+      "response_tokens": 48
+    },
+    {
+      "id": "coding-1-20",
+      "domain": "coding",
+      "response": "```python\ndef subtract_22(x):\n    return x - 22\n```\n\nThis function uses the built-in `-` operator to subtract 22 from the input `x`. The result is then",
+      "grade": {
+        "valid": false,
+        "correct": false,
+        "failure": "invalid_output"
+      },
+      "preference_logp_margin": 6.135141372680664,
+      "response_tokens": 48
+    },
+    {
+      "id": "coding-1-21",
+      "domain": "coding",
+      "response": "```python\ndef subtract_23(x):\n    return x - 23\n```\n\nThis function uses the built-in `-` operator to subtract 23 from `x`. The result is then returned as",
+      "grade": {
+        "valid": false,
+        "correct": false,
+        "failure": "invalid_output"
+      },
+      "preference_logp_margin": 7.875333786010742,
+      "response_tokens": 48
+    },
+    {
+      "id": "coding-1-22",
+      "domain": "coding",
+      "response": "```python\ndef subtract_24(x):\n    return x - 24\n```\n\nThis function uses the built-in `-` operator to subtract 24 from `x`. The result is then returned as",
+      "grade": {
+        "valid": false,
+        "correct": false,
+        "failure": "invalid_output"
+      },
+      "preference_logp_margin": 7.42048454284668,
+      "response_tokens": 48
+    },
+    {
+      "id": "coding-1-23",
+      "domain": "coding",
+      "response": "```python\ndef subtract_25(x):\n    return x - 25\n```\n\nThis function uses the built-in `-` operator to subtract 25 from `x`. The result is then returned as",
+      "grade": {
+        "valid": false,
+        "correct": false,
+        "failure": "invalid_output"
+      },
+      "preference_logp_margin": 8.635774612426758,
+      "response_tokens": 48
+    },
+    {
+      "id": "coding-2-20",
+      "domain": "coding",
+      "response": "```python\ndef multiply_by_22(x):\n    return x * 22\n```\n\nThis function uses the built-in `*` operator to multiply `x` by 22, which is the",
+      "grade": {
+        "valid": false,
+        "correct": false,
+        "failure": "invalid_output"
+      },
+      "preference_logp_margin": 6.173544883728027,
+      "response_tokens": 48
+    },
+    {
+      "id": "coding-2-21",
+      "domain": "coding",
+      "response": "```python\ndef multiply_by_23(x):\n    return x * 23\n```\n\nThis function uses the built-in `*` operator to multiply `x` by 23, which is the",
+      "grade": {
+        "valid": false,
+        "correct": false,
+        "failure": "invalid_output"
+      },
+      "preference_logp_margin": 8.326556205749512,
+      "response_tokens": 48
+    },
+    {
+      "id": "coding-2-22",
+      "domain": "coding",
+      "response": "```python\ndef multiply_by_24(x):\n    return x * 24\n```\n\nThis function uses the built-in `*` operator to multiply `x` by 24, which is equivalent",
+      "grade": {
+        "valid": false,
+        "correct": false,
+        "failure": "invalid_output"
+      },
+      "preference_logp_margin": 8.768297672271729,
+      "response_tokens": 48
+    },
+    {
+      "id": "coding-2-23",
+      "domain": "coding",
+      "response": "```python\ndef multiply_by_25(x):\n    return x * 25\n```\n\nThis function uses the built-in `*` operator to multiply `x` by 25, which is equivalent",
+      "grade": {
+        "valid": false,
+        "correct": false,
+        "failure": "invalid_output"
+      },
+      "preference_logp_margin": 8.94929552078247,
+      "response_tokens": 48
+    },
+    {
+      "id": "agentic-0-20",
+      "domain": "agentic",
+      "response": "Here is a Python function that returns a JSON object with exactly two string keys: \"tool\" and \"argument\":\n\n```python\nimport json\n\ndef get_json_with_two_keys(city, argument):\n   ",
+      "grade": {
+        "valid": false,
+        "correct": false,
+        "failure": "invalid_output"
+      },
+      "preference_logp_margin": 4.508522033691406,
+      "response_tokens": 48
+    },
+    {
+      "id": "agentic-0-21",
+      "domain": "agentic",
+      "response": "Here is a Python function that returns a JSON object with exactly two string keys: \"tool\" and \"argument\":\n\n```python\nimport json\n\ndef get_json_from_json(json_string):\n    return json",
+      "grade": {
+        "valid": false,
+        "correct": false,
+        "failure": "invalid_output"
+      },
+      "preference_logp_margin": 4.399791717529297,
+      "response_tokens": 48
+    },
+    {
+      "id": "agentic-0-22",
+      "domain": "agentic",
+      "response": "Here is a Python function that returns a JSON object with exactly two string keys: \"tool\" and \"argument\":\n\n```python\nimport json\n\ndef get_json_from_json(json_string):\n    return json",
+      "grade": {
+        "valid": false,
+        "correct": false,
+        "failure": "invalid_output"
+      },
+      "preference_logp_margin": 4.700111389160156,
+      "response_tokens": 48
+    },
+    {
+      "id": "agentic-0-23",
+      "domain": "agentic",
+      "response": "Here is a Python function that returns a JSON object with exactly two string keys: \"tool\" and \"argument\":\n\n```python\nimport json\n\ndef get_json_with_two_keys(city, argument):\n   ",
+      "grade": {
+        "valid": false,
+        "correct": false,
+        "failure": "invalid_output"
+      },
+      "preference_logp_margin": 4.507604598999023,
+      "response_tokens": 48
+    },
+    {
+      "id": "agentic-1-20",
+      "domain": "agentic",
+      "response": "Here is a simple Python function that calculates the sum of two numbers:\n\n```python\ndef calculate_sum(a, b):\n    return a + b\n\ndef calculate_sum_with_key(a, b):",
+      "grade": {
+        "valid": false,
+        "correct": false,
+        "failure": "invalid_output"
+      },
+      "preference_logp_margin": 1.5294723510742188,
+      "response_tokens": 48
+    },
+    {
+      "id": "agentic-1-21",
+      "domain": "agentic",
+      "response": "Here is a simple Python function that calculates the sum of two numbers:\n\n```python\ndef calculate_sum(a, b):\n    return a + b\n\ndef calculate_sum_only(a, b):\n    return",
+      "grade": {
+        "valid": false,
+        "correct": false,
+        "failure": "invalid_output"
+      },
+      "preference_logp_margin": 2.213587760925293,
+      "response_tokens": 48
+    },
+    {
+      "id": "agentic-1-22",
+      "domain": "agentic",
+      "response": "Here is a simple Python function that calculates the sum of two numbers:\n\n```python\ndef calculate_sum(a, b):\n    return a + b\n\ndef calculate_sum_only(a, b):\n    return",
+      "grade": {
+        "valid": false,
+        "correct": false,
+        "failure": "invalid_output"
+      },
+      "preference_logp_margin": 1.9664363861083984,
+      "response_tokens": 48
+    },
+    {
+      "id": "agentic-1-23",
+      "domain": "agentic",
+      "response": "Here is a simple Python function that calculates the sum of two numbers using the `+` operator:\n\n```python\ndef calculate_sum(a, b):\n    return a + b\n\ndef calculate_sum_with_",
+      "grade": {
+        "valid": false,
+        "correct": false,
+        "failure": "invalid_output"
+      },
+      "preference_logp_margin": 1.9020042419433594,
+      "response_tokens": 48
+    },
+    {
+      "id": "agentic-2-20",
+      "domain": "agentic",
+      "response": "Here is a Python function that uses the `search` and `filter` methods to find the exact two strings in a JSON object:\n\n```python\nimport json\n\ndef search_and_filter(json_obj, query",
+      "grade": {
+        "valid": false,
+        "correct": false,
+        "failure": "invalid_output"
+      },
+      "preference_logp_margin": 0.8286285400390625,
+      "response_tokens": 48
+    },
+    {
+      "id": "agentic-2-21",
+      "domain": "agentic",
+      "response": "Here is a Python function that uses the `search` and `filter` methods to search for a specific keyword in a list of dictionaries:\n\n```python\nimport json\n\ndef search_and_filter(query, data):",
+      "grade": {
+        "valid": false,
+        "correct": false,
+        "failure": "invalid_output"
+      },
+      "preference_logp_margin": 0.9087600708007812,
+      "response_tokens": 48
+    },
+    {
+      "id": "agentic-2-22",
+      "domain": "agentic",
+      "response": "Here is a Python function that uses the `search` and `filter` methods to search for a specific keyword in a list of dictionaries:\n\n```python\nimport json\n\ndef search_and_filter(query, data):",
+      "grade": {
+        "valid": false,
+        "correct": false,
+        "failure": "invalid_output"
+      },
+      "preference_logp_margin": 0.8827381134033203,
+      "response_tokens": 48
+    },
+    {
+      "id": "agentic-2-23",
+      "domain": "agentic",
+      "response": "Here is a Python function that uses the `search` and `filter` methods to search for a specific keyword in a list of dictionaries:\n\n```python\nimport json\n\ndef search_and_filter(query, data):",
+      "grade": {
+        "valid": false,
+        "correct": false,
+        "failure": "invalid_output"
+      },
+      "preference_logp_margin": 0.9761962890625,
+      "response_tokens": 48
+    }
+  ],
+  "elapsed_seconds": 185.12535120899884,
+  "limitations": [
+    "one training seed",
+    "36 synthetic test tasks",
+    "no public leaderboard comparison",
+    "single tool-call simulation"
+  ],
+  "verifier_sha256": "b4ec44a42a5f383ecef45b74294781aae1efa63d0076afbf0bf8c3050b2cc8d4",
+  "final_regrade_changes": 0
+}

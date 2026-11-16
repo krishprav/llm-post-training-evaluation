@@ -1,0 +1,258 @@
+{
+  "test_pairs": 36,
+  "accuracy": 0.8333333333333334,
+  "records": [
+    {
+      "id": "reasoning-0-20",
+      "domain": "reasoning",
+      "chosen_score": -1.340079426765442,
+      "rejected_score": -1.328157901763916,
+      "correct": false
+    },
+    {
+      "id": "reasoning-0-21",
+      "domain": "reasoning",
+      "chosen_score": -1.250793695449829,
+      "rejected_score": -1.4120794534683228,
+      "correct": true
+    },
+    {
+      "id": "reasoning-0-22",
+      "domain": "reasoning",
+      "chosen_score": -1.2825348377227783,
+      "rejected_score": -0.9607250094413757,
+      "correct": false
+    },
+    {
+      "id": "reasoning-0-23",
+      "domain": "reasoning",
+      "chosen_score": -1.0921587944030762,
+      "rejected_score": -1.1921292543411255,
+      "correct": true
+    },
+    {
+      "id": "reasoning-1-20",
+      "domain": "reasoning",
+      "chosen_score": -1.0040839910507202,
+      "rejected_score": -0.6151425242424011,
+      "correct": false
+    },
+    {
+      "id": "reasoning-1-21",
+      "domain": "reasoning",
+      "chosen_score": -0.7192710041999817,
+      "rejected_score": -0.8274749517440796,
+      "correct": true
+    },
+    {
+      "id": "reasoning-1-22",
+      "domain": "reasoning",
+      "chosen_score": -0.7222417593002319,
+      "rejected_score": -0.7916727066040039,
+      "correct": true
+    },
+    {
+      "id": "reasoning-1-23",
+      "domain": "reasoning",
+      "chosen_score": -1.1365344524383545,
+      "rejected_score": -0.8232054710388184,
+      "correct": false
+    },
+    {
+      "id": "reasoning-2-20",
+      "domain": "reasoning",
+      "chosen_score": -0.6706015467643738,
+      "rejected_score": -1.1590540409088135,
+      "correct": true
+    },
+    {
+      "id": "reasoning-2-21",
+      "domain": "reasoning",
+      "chosen_score": -0.8890430331230164,
+      "rejected_score": -0.7229872941970825,
+      "correct": false
+    },
+    {
+      "id": "reasoning-2-22",
+      "domain": "reasoning",
+      "chosen_score": -0.24585366249084473,
+      "rejected_score": -0.5789669752120972,
+      "correct": true
+    },
+    {
+      "id": "reasoning-2-23",
+      "domain": "reasoning",
+      "chosen_score": -0.6966965794563293,
+      "rejected_score": -0.5014988780021667,
+      "correct": false
+    },
+    {
+      "id": "coding-0-20",
+      "domain": "coding",
+      "chosen_score": 4.086551666259766,
+      "rejected_score": 1.0630364418029785,
+      "correct": true
+    },
+    {
+      "id": "coding-0-21",
+      "domain": "coding",
+      "chosen_score": 3.9451889991760254,
+      "rejected_score": 0.748762845993042,
+      "correct": true
+    },
+    {
+      "id": "coding-0-22",
+      "domain": "coding",
+      "chosen_score": 4.423908710479736,
+      "rejected_score": 0.7025244832038879,
+      "correct": true
+    },
+    {
+      "id": "coding-0-23",
+      "domain": "coding",
+      "chosen_score": 4.097293376922607,
+      "rejected_score": -0.14805960655212402,
+      "correct": true
+    },
+    {
+      "id": "coding-1-20",
+      "domain": "coding",
+      "chosen_score": 4.198596954345703,
+      "rejected_score": 0.9117884039878845,
+      "correct": true
+    },
+    {
+      "id": "coding-1-21",
+      "domain": "coding",
+      "chosen_score": 4.193191051483154,
+      "rejected_score": 1.151573657989502,
+      "correct": true
+    },
+    {
+      "id": "coding-1-22",
+      "domain": "coding",
+      "chosen_score": 4.499428749084473,
+      "rejected_score": 0.8602789044380188,
+      "correct": true
+    },
+    {
+      "id": "coding-1-23",
+      "domain": "coding",
+      "chosen_score": 4.289952754974365,
+      "rejected_score": 0.1189955472946167,
+      "correct": true
+    },
+    {
+      "id": "coding-2-20",
+      "domain": "coding",
+      "chosen_score": 3.8764309883117676,
+      "rejected_score": 1.156042218208313,
+      "correct": true
+    },
+    {
+      "id": "coding-2-21",
+      "domain": "coding",
+      "chosen_score": 4.053557395935059,
+      "rejected_score": 0.8685970902442932,
+      "correct": true
+    },
+    {
+      "id": "coding-2-22",
+      "domain": "coding",
+      "chosen_score": 4.847405433654785,
+      "rejected_score": 0.21373194456100464,
+      "correct": true
+    },
+    {
+      "id": "coding-2-23",
+      "domain": "coding",
+      "chosen_score": 4.135700225830078,
+      "rejected_score": 0.03031867742538452,
+      "correct": true
+    },
+    {
+      "id": "agentic-0-20",
+      "domain": "agentic",
+      "chosen_score": 0.6076408624649048,
+      "rejected_score": 0.31614723801612854,
+      "correct": true
+    },
+    {
+      "id": "agentic-0-21",
+      "domain": "agentic",
+      "chosen_score": 0.6315939426422119,
+      "rejected_score": 0.341299444437027,
+      "correct": true
+    },
+    {
+      "id": "agentic-0-22",
+      "domain": "agentic",
+      "chosen_score": 0.6673195362091064,
+      "rejected_score": 0.37200498580932617,
+      "correct": true
+    },
+    {
+      "id": "agentic-0-23",
+      "domain": "agentic",
+      "chosen_score": 0.5662051439285278,
+      "rejected_score": 0.27607446908950806,
+      "correct": true
+    },
+    {
+      "id": "agentic-1-20",
+      "domain": "agentic",
+      "chosen_score": 0.4659016728401184,
+      "rejected_score": 0.34528034925460815,
+      "correct": true
+    },
+    {
+      "id": "agentic-1-21",
+      "domain": "agentic",
+      "chosen_score": 0.48921704292297363,
+      "rejected_score": 0.40684419870376587,
+      "correct": true
+    },
+    {
+      "id": "agentic-1-22",
+      "domain": "agentic",
+      "chosen_score": 0.4960402250289917,
+      "rejected_score": 0.3966147005558014,
+      "correct": true
+    },
+    {
+      "id": "agentic-1-23",
+      "domain": "agentic",
+      "chosen_score": 0.4325639009475708,
+      "rejected_score": 0.3298417627811432,
+      "correct": true
+    },
+    {
+      "id": "agentic-2-20",
+      "domain": "agentic",
+      "chosen_score": 0.4783727526664734,
+      "rejected_score": 0.21970713138580322,
+      "correct": true
+    },
+    {
+      "id": "agentic-2-21",
+      "domain": "agentic",
+      "chosen_score": 0.5600117444992065,
+      "rejected_score": 0.3120594620704651,
+      "correct": true
+    },
+    {
+      "id": "agentic-2-22",
+      "domain": "agentic",
+      "chosen_score": 0.6041107773780823,
+      "rejected_score": 0.36883339285850525,
+      "correct": true
+    },
+    {
+      "id": "agentic-2-23",
+      "domain": "agentic",
+      "chosen_score": 0.46605902910232544,
+      "rejected_score": 0.22950485348701477,
+      "correct": true
+    }
+  ]
+}

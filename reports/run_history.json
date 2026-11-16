@@ -1,0 +1,198 @@
+[
+  {
+    "stage": [
+      "post_training_lab.data"
+    ],
+    "exit_code": 0,
+    "elapsed_seconds": 0.02631587500036403,
+    "log": "reports/post_training_lab-data.log"
+  },
+  {
+    "stage": [
+      "post_training_lab.objectives"
+    ],
+    "exit_code": 0,
+    "elapsed_seconds": 0.8791911659991456,
+    "log": "reports/post_training_lab-objectives.log"
+  },
+  {
+    "stage": [
+      "post_training_lab.train",
+      "manifest"
+    ],
+    "exit_code": 0,
+    "elapsed_seconds": 1.7614713750008377,
+    "log": "reports/post_training_lab-train_manifest.log"
+  },
+  {
+    "stage": [
+      "eval_harness.evaluate",
+      "base"
+    ],
+    "exit_code": 0,
+    "elapsed_seconds": 82.51901962500051,
+    "log": "reports/eval_harness-evaluate_base.log"
+  },
+  {
+    "stage": [
+      "post_training_lab.train",
+      "sft"
+    ],
+    "exit_code": 1,
+    "elapsed_seconds": 2.61670016700009,
+    "log": "reports/post_training_lab-train_sft.log"
+  },
+  {
+    "stage": [
+      "post_training_lab.train",
+      "sft"
+    ],
+    "exit_code": 0,
+    "elapsed_seconds": 79.92665624999972,
+    "log": "reports/post_training_lab-train_sft.log"
+  },
+  {
+    "stage": [
+      "post_training_lab.train",
+      "sft-low-data"
+    ],
+    "exit_code": 0,
+    "elapsed_seconds": 44.720723417000045,
+    "log": "reports/post_training_lab-train_sft-low-data.log"
+  },
+  {
+    "stage": [
+      "post_training_lab.train",
+      "dpo"
+    ],
+    "exit_code": 1,
+    "elapsed_seconds": 136.37630654099848,
+    "log": "reports/post_training_lab-train_dpo.log"
+  },
+  {
+    "stage": [
+      "post_training_lab.train",
+      "manifest"
+    ],
+    "exit_code": 0,
+    "elapsed_seconds": 4.366794957999446,
+    "log": "reports/post_training_lab-train_manifest.log"
+  },
+  {
+    "stage": [
+      "eval_harness.evaluate",
+      "base"
+    ],
+    "exit_code": 0,
+    "elapsed_seconds": 189.16721804200097,
+    "log": "reports/eval_harness-evaluate_base.log"
+  },
+  {
+    "stage": [
+      "post_training_lab.train",
+      "sft"
+    ],
+    "exit_code": 0,
+    "elapsed_seconds": 84.26363254199896,
+    "log": "reports/post_training_lab-train_sft.log"
+  },
+  {
+    "stage": [
+      "post_training_lab.train",
+      "sft-low-data"
+    ],
+    "exit_code": 0,
+    "elapsed_seconds": 64.95001525000043,
+    "log": "reports/post_training_lab-train_sft-low-data.log"
+  },
+  {
+    "stage": [
+      "post_training_lab.train",
+      "dpo"
+    ],
+    "exit_code": 0,
+    "elapsed_seconds": 79.51254433400027,
+    "log": "reports/post_training_lab-train_dpo.log"
+  },
+  {
+    "stage": [
+      "post_training_lab.train",
+      "reward"
+    ],
+    "exit_code": 0,
+    "elapsed_seconds": 53.80542466599945,
+    "log": "reports/post_training_lab-train_reward.log"
+  },
+  {
+    "stage": [
+      "post_training_lab.train",
+      "ppo"
+    ],
+    "exit_code": 1,
+    "elapsed_seconds": 22.946652541999356,
+    "log": "reports/post_training_lab-train_ppo.log"
+  },
+  {
+    "stage": [
+      "post_training_lab.train",
+      "reward"
+    ],
+    "exit_code": 0,
+    "elapsed_seconds": 17.027743832999477,
+    "log": "reports/post_training_lab-train_reward.log"
+  },
+  {
+    "stage": [
+      "post_training_lab.train",
+      "ppo"
+    ],
+    "exit_code": 0,
+    "elapsed_seconds": 11.08593912499964,
+    "log": "reports/post_training_lab-train_ppo.log"
+  },
+  {
+    "stage": [
+      "eval_harness.evaluate",
+      "sft"
+    ],
+    "exit_code": 0,
+    "elapsed_seconds": 9.89234320900141,
+    "log": "reports/eval_harness-evaluate_sft.log"
+  },
+  {
+    "stage": [
+      "eval_harness.evaluate",
+      "sft-low-data"
+    ],
+    "exit_code": 0,
+    "elapsed_seconds": 11.67095791599968,
+    "log": "reports/eval_harness-evaluate_sft-low-data.log"
+  },
+  {
+    "stage": [
+      "eval_harness.evaluate",
+      "dpo"
+    ],
+    "exit_code": 0,
+    "elapsed_seconds": 11.543460207998578,
+    "log": "reports/eval_harness-evaluate_dpo.log"
+  },
+  {
+    "stage": [
+      "eval_harness.evaluate",
+      "ppo"
+    ],
+    "exit_code": 0,
+    "elapsed_seconds": 14.128750709000087,
+    "log": "reports/eval_harness-evaluate_ppo.log"
+  },
+  {
+    "stage": [
+      "eval_harness.evaluate",
+      "reward"
+    ],
+    "exit_code": 0,
+    "elapsed_seconds": 19.808462540999244,
+    "log": "reports/eval_harness-evaluate_reward.log"
+  }
+]

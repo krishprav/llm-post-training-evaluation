@@ -1,0 +1,93 @@
+{
+  "metrics": {
+    "train_runtime": 53.9646,
+    "train_samples_per_second": 4.744,
+    "train_steps_per_second": 1.186,
+    "train_loss": 0.27698877453804016,
+    "epoch": 7.111111111111111
+  },
+  "train_rows": 36,
+  "trainable_parameters": 460800,
+  "total_parameters": 134975808,
+  "trainable_fraction": 0.003413945112297457,
+  "log_history": [
+    {
+      "loss": 1.1811,
+      "grad_norm": 3.7459518909454346,
+      "learning_rate": 0.000875,
+      "epoch": 0.8888888888888888,
+      "step": 8
+    },
+    {
+      "loss": 0.3529,
+      "grad_norm": 0.40192556381225586,
+      "learning_rate": 0.00075,
+      "epoch": 1.7777777777777777,
+      "step": 16
+    },
+    {
+      "loss": 0.175,
+      "grad_norm": 0.041510697454214096,
+      "learning_rate": 0.000625,
+      "epoch": 2.6666666666666665,
+      "step": 24
+    },
+    {
+      "loss": 0.1436,
+      "grad_norm": 0.984312891960144,
+      "learning_rate": 0.0005,
+      "epoch": 3.5555555555555554,
+      "step": 32
+    },
+    {
+      "loss": 0.166,
+      "grad_norm": 1.5310266017913818,
+      "learning_rate": 0.000375,
+      "epoch": 4.444444444444445,
+      "step": 40
+    },
+    {
+      "loss": 0.0658,
+      "grad_norm": 0.9841545224189758,
+      "learning_rate": 0.00025,
+      "epoch": 5.333333333333333,
+      "step": 48
+    },
+    {
+      "loss": 0.0643,
+      "grad_norm": 0.4503706097602844,
+      "learning_rate": 0.000125,
+      "epoch": 6.222222222222222,
+      "step": 56
+    },
+    {
+      "loss": 0.0672,
+      "grad_norm": 0.05324921756982803,
+      "learning_rate": 0.0,
+      "epoch": 7.111111111111111,
+      "step": 64
+    },
+    {
+      "train_runtime": 53.9646,
+      "train_samples_per_second": 4.744,
+      "train_steps_per_second": 1.186,
+      "total_flos": 12413159456256.0,
+      "train_loss": 0.27698877453804016,
+      "epoch": 7.111111111111111,
+      "step": 64
+    }
+  ],
+  "elapsed_seconds": 58.105124540999896,
+  "stage": "sft-low-data",
+  "device": "mps",
+  "timestamp_utc": "2026-11-16T11:48:34Z",
+  "model_id": "HuggingFaceTB/SmolLM2-135M-Instruct",
+  "model_revision": "12fd25f77366fa6b3b4b768ec3050bf629380bac",
+  "packages": {
+    "torch": "2.8.0",
+    "transformers": "4.45.2",
+    "trl": "0.11.4",
+    "peft": "0.13.2",
+    "accelerate": "0.34.2"
+  }
+}
